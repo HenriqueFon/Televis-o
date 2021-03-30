@@ -1,0 +1,20 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+public class Program {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader entrada=new BufferedReader(new InputStreamReader(System.in));
+        String str="";
+        int escolha=0;
+        Television TV=new Television(0,0);
+        
+        System.out.println("1 Escolher o canal");
+        System.out.println("2 Aumentar ou diminiur volume");
+        System.out.println("3 Mudar o canal");
+        System.out.println("4 Mostrar estado da TV");
+        System.out.print("Digite a sua opção: ");
+        str=entrada.readLine();
+	}
+
+}

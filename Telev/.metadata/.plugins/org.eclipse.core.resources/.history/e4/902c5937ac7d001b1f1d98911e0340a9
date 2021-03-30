@@ -1,0 +1,19 @@
+
+public class Television {
+
+	private int volume;
+	private int canal;
+	
+	//getters e setters
+	public int getVolume() {
+		return volume;
+	}
+	
+	public void setVolume() {
+		this.volume=volume;
+	}
+	
+	public int getCanal() {
+		return canal;
+	}
+}

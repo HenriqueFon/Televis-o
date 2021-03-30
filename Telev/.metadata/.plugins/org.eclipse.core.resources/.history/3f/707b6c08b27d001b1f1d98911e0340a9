@@ -1,0 +1,11 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+public class Program {
+
+	public static void main(String[] args) {
+		BufferedReader entrada=new BufferedReader(new InputStreamReader(System.in));
+        String str="";
+        Television TV=new Television(0,0);
+	}
+
+}
